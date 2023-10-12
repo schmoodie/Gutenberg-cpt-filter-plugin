@@ -1,0 +1,49 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/filter-block-wpbyran",
+	"version": "0.1.0",
+	"title": "Filter Block Wpbyran",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"selectedCPT"		: {"type": "string"},
+		"CPTPosts"			: {"type": "array"},
+		"selectedTax"		: {"type": "string"},
+		"sortedTax"			: {"type": "array"},
+		"termArray"			: {"type": "array"},
+		"selectedVariation" : {"type": "string"},
+		"selectedLayout" 	: {"type": "string"},
+
+		"PostBorder"		: {"type": "boolean"},
+		"PostBorderColor"	: {"type": "string"},
+		"PostBorderThick"	: {"type": "string"},
+		"PostBorderRadius" 	: {"type": "string"},
+		"PostBgColor"		: {"type": "string"},
+		"PostPadding"		: {"type": "string"},
+		"PostMargin"		: {"type": "string"},
+		"PostHeight"		: {"type": "string"},
+		"PostWidth"			: {"type": "string"},
+		
+
+		"TitleColor"		: {"type": "string"},
+		"TitleFontSize"		: {"type": "integer"},
+		"TitleMargin"		: {"type": "string"},
+		"TitlePadding"		: {"type": "string"},
+
+		"ContentColor"		: {"type": "string"},
+		"ContentFontSize"	: {"type": "integer"},
+		"ContentMargin"		: {"type": "string"},
+		"ContentPadding"	: {"type": "string"}
+	  },
+	"textdomain": "filter-block-wpbyran",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./index.css",
+	"viewScript": "file:./view.js"
+}

@@ -1,0 +1,26 @@
+.hidden{
+    display: none;
+}
+
+
+.gridview{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+    .filter-post{
+       max-width: 25%;
+    }
+    
+}
+
+.listview{
+    
+    .filter-post{
+        width: 100%;
+        margin: 10px;
+    }
+
+    
+}
